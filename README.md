@@ -4,11 +4,11 @@ CALCULATOR
 
 Created a basic calculator using html/css/javascript(mostly js)
 
-This project belongs to one of the assignments of 'Web Development 101' course of (The Odin Project)[https://www.theodinproject.com]
+This project belongs to one of the assignments of 'Web Development 101' course of [The Odin Project](https://www.theodinproject.com)
 
 
 
-The Application - (Calculator)[https://arindam-7.github.io/Calculator/]
+The Application - [Calculator](https://arindam-7.github.io/Calculator/)
 
 
 
