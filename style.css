@@ -1,0 +1,140 @@
+body {
+    background-color: black;
+}
+
+p {
+    margin: 15px 0;
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #222 -webkit-gradient(linear, left top, right top, from(rgb(5, 5, 5)), to(rgb(8, 8, 8)), color-stop(0.6, #fff)) 0 0 no-repeat;
+	-webkit-background-size: 150px;
+	color: $text-color;
+	-webkit-background-clip: text;
+	-webkit-animation-name: shine;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+	text-shadow: 0 0px 0px rgba(255, 255, 255, 0.5);
+}
+
+
+@-webkit-keyframes shine {
+	0%, 10% {
+		background-position: -1000px;
+	}
+	20% {
+		background-position: top left;
+	}
+	90% {
+		background-position: top right;
+	}
+	100% {
+		background-position: 1000px;
+	}
+}
+
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: darkred;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    max-height: 375px;
+    max-width: 250px;
+    position: relative; 
+    border: 1.5px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 2.5px 2.5px 5px 3px #111111;
+    background: rgb(88, 84, 84);
+}
+
+.screen {
+    width: 95%;
+    height: 15%;
+    border: 0.5px solid black;
+    border-radius: 2.5px;
+    background-color: rgb(51, 44, 44);
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin: 2px 5px;
+    color: blanchedalmond;
+}
+
+.row {
+    text-align: center;
+}
+
+.row button {
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    background-color: rgb(175, 162, 162);
+    border: 1px solid rgb(37, 35, 35);
+    padding: 10px 8px;
+    margin: 7px 6px;
+    border-radius: 7px;
+    width: 45px;
+    box-shadow: .5px .5px .35px .35px rgb(78, 73, 73);
+}
+
+button:hover {
+    box-shadow: 1px 1px .5px .5px rgb(73, 70, 70);
+}
+
+
+.buttom-row {
+    display: inline-block;
+}
+
+.clear-btn {
+    cursor: pointer;
+    font-weight: bold;
+    width: 40%;
+    margin: 4px 10px;
+    background-color: rgb(175, 162, 162);
+    border: 1px solid rgb(37, 35, 35);
+    padding: 7px;
+    border-radius: 7px;
+    box-shadow: .5px .5px .35px .35px rgb(66, 63, 63);
+}
+
+.equals-btn {
+    cursor: pointer;
+    font-weight: bold;
+    width: 40%;
+    margin: 4px 10px;
+    background-color: rgb(175, 162, 162);
+    border: 1px solid rgb(37, 35, 35);
+    padding: 7px;
+    border-radius: 7px;
+    box-shadow: .5px .5px .35px .35px rgb(66, 63, 63);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
