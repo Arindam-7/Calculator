@@ -2,7 +2,7 @@ CALCULATOR
 
 
 
-Created a basic calculator using html/css/javascript(mostly js)
+Created a basic calculator using html/css/javascript
 
 This project belongs to one of the assignments of 'Web Development 101' course of [The Odin Project](https://www.theodinproject.com)
 
